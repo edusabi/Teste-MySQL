@@ -1,0 +1,72 @@
+h1{
+  text-align: center;
+  padding: 3rem 0;
+}
+/* Estilo geral da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Remove espaços entre bordas */
+  margin: 20px 0;
+  /* Margem para a tabela */
+  font-family: Arial, sans-serif;
+  /* Fonte da tabela */
+}
+
+/* Estilo do cabeçalho da tabela */
+thead {
+  background-color: #f4f4f4;
+  /* Cor de fundo do cabeçalho */
+}
+
+th {
+  padding: 10px;
+  /* Espaçamento interno das células do cabeçalho */
+  text-align: left;
+  /* Alinhamento do texto */
+  border-bottom: 2px solid #000000;
+  /* Borda inferior das células do cabeçalho */
+  color: #000000;
+  /* Cor do texto do cabeçalho */
+}
+
+/* Estilo das células do corpo da tabela */
+td {
+  padding: 10px;
+  /* Espaçamento interno das células */
+  border-bottom: 1px solid #000;
+  /* Borda inferior das células */
+  color: #000;
+  /* Cor do texto das células */
+}
+
+
+/* Estilo das linhas da tabela */
+tr:nth-child(even) {
+  background-color: #ffffff;
+  /* Cor de fundo das linhas pares */
+}
+
+tr:hover {
+  background-color: #a99b9b;
+  /* Cor de fundo das linhas ao passar o mouse */
+}
+
+.editar {
+  cursor: pointer;
+  background-color: yellow;
+  padding: .5rem 1rem;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.deletar {
+  cursor: pointer;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: red;
+  padding: .5rem 1rem;
+  border: none;
+}
